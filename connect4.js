@@ -5,11 +5,28 @@
  * board fills (tie)
  */
 
-const WIDTH = 7;
-const HEIGHT = 6;
+class Game{
 
-let currPlayer = 1; // active player: 1 or 2
-let board = []; // array of rows, each row is array of cells  (board[y][x])
+  //constructor initializes the maion variables for the game
+  constructor(width, height){
+    this.width=width;
+    this.height=height;
+    this.board = [];// array of rows, each row is array of cells  (board[y][x])
+    this.currPlayer = 1;// active player: 1 or 2
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+
 
 /** makeBoard: create in-JS board structure:
  *   board = array of rows, each row is array of cells  (board[y][x])
