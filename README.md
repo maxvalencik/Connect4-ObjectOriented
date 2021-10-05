@@ -1,6 +1,6 @@
 # Connect4-ObjectOriented
 
-Coded using jj object/class technics
+Coded using js object/class technics
 
 https://maxvalencik.github.io/Connect4-ObjectOriented/
 
